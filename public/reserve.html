@@ -5,25 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wuhan Wings</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap" rel="stylesheet">
 
 </head>
-<body style = "background-color: #421049;">
-    <div class="container-fluid" style = "padding-left: 150px; padding-right: 150px;">
-        <div class="jumbotron">
-            <h1 class="display-4">Reservations</h1>
-            <p class="lead">Reserve a visit!</p>
-            <hr class="my-4">
-            <p></p>
-            <p class="lead">
-            </p>
-          </div>
-
-    <div class="row" style="text-align: center;"> 
-        <img style = "text-align: center;" src = "/wuhanwings/assets/purplefood.jpg" alt = "purplefood">
-
-    </div>
-
+<body style = "background-color: #421049;" >
+    <div class="container-fluid" style = "text-align: center; padding-left: 150px; padding-right: 150px;">
+      <form>
+        <div class="form-group">
+          <label for="ReservationName">Reservation Name:</label>
+          <input type="name" class="form-control" id="ReservationName" size="20" placeholder="Reservation Name">
+        </div>
+        <div class="form-group">
+          <label for="Guests">Number of Guests</label>
+          <input type="number" class="form-control" id="Guests" maxlength="4" size="4" placeholder="# of Guests">
+        </div>
+        <button type="submit" class="btn btn-primary" style= "color: #100F1D; background-color:#8D4803;">Create Reservation</button>
+      </form>
     </div>
 </body>
 </html>
