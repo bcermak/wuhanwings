@@ -9,17 +9,41 @@
 
 </head>
 <body style = "background-color: #421049;" >
-    <div class="container-fluid" style = "text-align: center; padding-left: 150px; padding-right: 150px;">
+  <nav> 
+    <ul class="nav nav-pills">
+      <li class="nav-item">
+        <a class="nav-link active" style = "color: whitesmoke;" href="home.html">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="reserve.html" style = "color: #1577A6;" >  Reserve </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="tables.html" style = "color: #1577A6;">Tables</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="waitlist.html" style = "color: #1577A6;" href="#">Waitlist</a>
+      </li>
+    </ul>
+</nav>
+
+    <div class="container-fluid" style = "text-align: center; padding-top: 25px; padding-left: 33%; padding-right: 33%;">
+      <div class="row" style = "-webkit-box-shadow: 0px 0px 110px 35px rgba(232,176,3,0.75);
+      -moz-box-shadow: 0px 0px 110px 25px rgba(232,176,3,0.75);
+      box-shadow: 0px 0px 110px 25px rgba(232,176,3,0.75);">
+        <div style = "font-family: 'Krona One', sans-serif; color: #1577A6;background-color: #E8B003;"class="col-md-12"> <h1> <strong> Reserve NOW! </strong> </h1>  </div>
+        
+      </div>
+
       <form>
-        <div class="form-group">
+        <div class="form-group" style ="color:whitesmoke; padding-top: 30px;">
           <label for="ReservationName">Reservation Name:</label>
           <input type="name" class="form-control" id="ReservationName" size="20" placeholder="Reservation Name">
         </div>
-        <div class="form-group">
+        <div class="form-group" style="color:whitesmoke">
           <label for="Guests">Number of Guests</label>
           <input type="number" class="form-control" id="Guests" maxlength="4" size="4" placeholder="# of Guests">
         </div>
-        <button type="submit" class="btn btn-primary" style= "color: #100F1D; background-color:#8D4803;">Create Reservation</button>
+        <button type="submit" class="btn btn-primary" style= "font-weight:600; color: #1577A6; background-color:#E8B003;">Create Reservation</button>
       </form>
     </div>
 </body>
